@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo do adivinha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=JetBrains+Mono&family=Mulish&family=Open+Sans&family=Palanquin&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="screen1 ">
+        <h1><strong>Jogo da adivinhação</strong></h1>
+        <p>Adivinhe o número entre 0 e 10</p>
+        
+        <form>
+            <input id="inputNumber" type="number">
+            <button id="btnTry">tentar</button>
+        </form>
+    </div>
+    <div class="screen2 hide">
+        <h1><strong>acertou em 3 vezes</strong></h1>
+        <br> <br> 
+        <button id="btnReset">jogar novamente</button>
+    </div>
+    <script src="main.js"></script>
+    </main>
+</body>
+</html>
